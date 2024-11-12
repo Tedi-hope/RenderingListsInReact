@@ -25,7 +25,7 @@ function AddItemForm({addItem}){
                 <input type="text" id="item" 
                 value={inputValue} 
                 onChange={(e)=>setInputValue(e.target.value)} />
-                <input  type="submit" class="ms-5" value="Add Item" />
+                <input  type="submit" class="ms-5 btn btn-lg btn-secondary" value="Add Item" />
             </form>
         </div>
       </div>
