@@ -6,7 +6,7 @@ function ItemList({items,removeItem}){
         <>
     <div className="container">
       <div className="border border-2 w-50 ">
-        <h4 className="text-center mt-2">Items List</h4>
+        <h5 className="text-left mt-2">Items List</h5>
         <ul>
             {items.map((item,index)=>(
                <Item key={index}  item={item}   removeItem={removeItem}   /> 
